@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# Diretório de distribuição (output do TypeScript)
+dist/
+
+# Arquivos de log
+*.log
+
+# Arquivos de ambiente
+.env
+
+# Diretórios de cache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos do VSCode (ou outro editor de código)
+.vscode/
+
+# Arquivos de build temporários
+*.tsbuildinfo
+
+# Dependências do TypeScript (caso use um arquivo tsconfig.json com "noEmit" ou "declaration")
+*.d.ts
